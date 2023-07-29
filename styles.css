@@ -88,7 +88,6 @@ body {
 .contact-info__block {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
 }
 
 .contact-info__block--center {
@@ -103,7 +102,8 @@ body {
 }
 
 .contact-info__item:not(:last-child) {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
+    margin-top: 25px;
 }
 
 .contact-info__item-icon-wrapper {
@@ -111,6 +111,8 @@ body {
     width: 20px;
     display: flex;
     justify-content: center;
+    margin-bottom: 5px;
+    margin-top: 3px;
 }
 
 .contact-info__item-icon path {
@@ -124,8 +126,8 @@ body {
 
 .contact-info__avatar {
     border-radius: 50%;
-    width: 100px;
-    height: 100px;
+    width: 140px;
+    height: 140px;
     object-fit: cover;
     border: 3px solid;
     border-color: var(--text-decoration-color);
@@ -176,7 +178,7 @@ body {
 .experiences__header {
     color: var(--secondary-text-color);
     text-align: left;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
 }
 
 .experiences__company-header-durability {
@@ -191,19 +193,19 @@ body {
     text-decoration-color: var(--text-decoration-color);
     text-decoration-line: underline;
     text-align: left;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
 }
 
 .experiences__company-project {
-    margin-left: 15px;
-    margin-bottom: 25px;
+    margin-left: 5px;
+    margin-bottom: 40px;
 }
 
 .experiences__company-project-role {
     color: var(--durability-text-color);
     text-align: left;
-    margin-bottom: 10px;
-    font-size: 15px;
+    margin-bottom: 20px;
+    font-size: 16px;
 }
 
 .experiences__company-project-name {
@@ -214,7 +216,7 @@ body {
 
 .experiences__company-project-responsibilities {
     color: var(--secondary-text-color);
-    padding-left: 20px;
+    padding-left:15px;
 }
 
 .additional-info {
@@ -231,17 +233,21 @@ body {
     margin-bottom: 20px;
 }
 
+.additional-info__education-university{
+    margin-bottom: 12px;
+}
 .additional-info__education-university-durability {
     color: var(--durability-text-color);
     text-align: left;
-    margin-bottom: 10px;
-    font-size: 15px;
+    margin-bottom: 5px;
+    font-size: 14px;
 }
 
 .additional-info__education-university-speciality {
     color: var(--primary-text-color);
     text-align: left;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
+    font-size: 17px;
 }
 
 .additional-info__education-university-name {
@@ -249,13 +255,13 @@ body {
 }
 
 .additional-info__languages {
-    margin-bottom: 20px;
+    margin-bottom: 5px;
 }
 
 .additional-info__languages-header {
     color: var(--secondary-text-color);
     text-align: left;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .additional-info__languages-item {
